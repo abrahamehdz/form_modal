@@ -1,0 +1,15 @@
+/* En exito.html paypal.css debe de estar abajo de estilos.css para que tambien se aplique */
+body{
+  background-color: var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Aplicar a los a (los links) que estan dentro de content_paypal */
+.content_paypal a {
+  color: var(--green-color);
+}
